@@ -1,0 +1,49 @@
+-----------------------------------------
+--- 3d model Retrieval Engine of BTBU ---
+-----------------------------------------
+
+Table of Contents
+=================
+
+- Introduction
+- Usage
+- Other Utilities
+- Additional Information
+
+
+Introduction
+============
+
+This tool provides a simple interface to read 3d model, convert off file to 
+pcd file, and implement SD algorithm by C++ program in Ubuntu. 
+It is very easy to use by only call the API function. 
+
+Usage
+=====
+
+You can use simply as my main.cpp file.
+
+
+Other Utilities
+===============
+
+You can usage the pcl_viewer exec file to visualize .pcd file (point cloud of 3d model)
+
+
+Additional Information
+======================
+
+This interface was mainly written by chaoli zhang from School of Computer Science 
+and Information Engineering, Beijing Technology and Business University (BTBU). 
+If you find this tool useful, please cite LIBSVM as follows,
+
+Bo Li, Yijuan Lu, Chunyuan Li, Afzal Godil, Tobias Schreck, Masaki Aono, 
+Martin Burtscher, Qiang Chen, Nihad Karim Chowdhury, Bin Fang, Hongbo Fu, 
+Takahiko Furuya, Haisheng Li, Jianzhuang Liu, Henry Johan, Ryuichi Kosaka, 
+Hitoshi Koyanagi, Ryutarou Ohbuchi, Atsushi Tatsuma, Yajuan Wan, 
+Chaoli Zhang, Changqing Zou. A comparison of 3D shape retrieval methods based on 
+a large-scale benchmark supporting multimodal queries[J]. 
+Computer Vision and Image Understanding, 2015, 131: 1-27.
+
+For any question, please contact chaoli zhang <zcwtuibian@gmail.com>, thanks.
+
