@@ -15,7 +15,7 @@ Introduction
 ============
 
 This tool provides a simple interface to read 3d model, convert off file to 
-pcd file, and implement SD algorithm by C++ program in Ubuntu. 
+pcd file, and implement SD algorithm by C++ program on linux. 
 It is very easy to use by only call the API function. 
 
 Usage
