@@ -38,7 +38,7 @@ double Oshi(const vector<elemtype> v1, const vector<elemtype>  v2)
 	return ODistance;
 }
 
-// 实现欧氏距离的计算
+// 实现曼哈顿距离的计算
 template<typename elemtype>
 double Manhaton(const vector<elemtype> &v1, const vector<elemtype> &v2)
 {
@@ -53,7 +53,7 @@ double Manhaton(const vector<elemtype> &v1, const vector<elemtype> &v2)
 	return ODistance;
 }
 
-// 实现欧氏距离的计算
+// 实现切比雪夫距离的计算
 template<typename elemtype>
 double Chebyshev(const vector<elemtype> &v1, const vector<elemtype> &v2)
 {
@@ -91,7 +91,7 @@ void cov(const vector<double>& v1, const vector<double>& v2, vector<vector<doubl
     /*return ret;*/
 }
 
-//实现玛氏距离的计算
+//实现马氏距离的计算
 double Mashi(const vector<double>& v1, const vector<double>& v2)
 {   
 	const int elemnum = v1.size();
